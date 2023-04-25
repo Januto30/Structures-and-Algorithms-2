@@ -82,17 +82,33 @@ CMakeFiles/EDA2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EDA2.dir/main.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\JAN\EDA 2 def\main.c" -o CMakeFiles\EDA2.dir\main.c.s
 
+CMakeFiles/EDA2.dir/menu.c.obj: CMakeFiles/EDA2.dir/flags.make
+CMakeFiles/EDA2.dir/menu.c.obj: D:/JAN/EDA\ 2\ def/menu.c
+CMakeFiles/EDA2.dir/menu.c.obj: CMakeFiles/EDA2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\JAN\EDA 2 def\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/EDA2.dir/menu.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EDA2.dir/menu.c.obj -MF CMakeFiles\EDA2.dir\menu.c.obj.d -o CMakeFiles\EDA2.dir\menu.c.obj -c "D:\JAN\EDA 2 def\menu.c"
+
+CMakeFiles/EDA2.dir/menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EDA2.dir/menu.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\JAN\EDA 2 def\menu.c" > CMakeFiles\EDA2.dir\menu.c.i
+
+CMakeFiles/EDA2.dir/menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EDA2.dir/menu.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\JAN\EDA 2 def\menu.c" -o CMakeFiles\EDA2.dir\menu.c.s
+
 # Object files for target EDA2
 EDA2_OBJECTS = \
-"CMakeFiles/EDA2.dir/main.c.obj"
+"CMakeFiles/EDA2.dir/main.c.obj" \
+"CMakeFiles/EDA2.dir/menu.c.obj"
 
 # External object files for target EDA2
 EDA2_EXTERNAL_OBJECTS =
 
 libEDA2.a: CMakeFiles/EDA2.dir/main.c.obj
+libEDA2.a: CMakeFiles/EDA2.dir/menu.c.obj
 libEDA2.a: CMakeFiles/EDA2.dir/build.make
 libEDA2.a: CMakeFiles/EDA2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\JAN\EDA 2 def\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libEDA2.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\JAN\EDA 2 def\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libEDA2.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\EDA2.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EDA2.dir\link.txt --verbose=$(VERBOSE)
 

@@ -1,2 +1,2 @@
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc libEDA2.a CMakeFiles/EDA2.dir/main.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc libEDA2.a CMakeFiles/EDA2.dir/main.c.obj CMakeFiles/EDA2.dir/menu.c.obj
 C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ranlib.exe libEDA2.a

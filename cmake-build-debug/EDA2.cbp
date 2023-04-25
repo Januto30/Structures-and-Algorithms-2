@@ -82,6 +82,9 @@
 		<Unit filename="D:/JAN/EDA 2 def/main.h">
 			<Option target="EDA2"/>
 		</Unit>
+		<Unit filename="D:/JAN/EDA 2 def/menu.c">
+			<Option target="EDA2"/>
+		</Unit>
 		<Unit filename="D:/JAN/EDA 2 def/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
