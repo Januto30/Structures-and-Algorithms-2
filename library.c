@@ -5,5 +5,5 @@
 void hello(void) {
     printf("Hello, World!\n");
     printf("Hola Jan");
-    CXVZXCVXZCVZXCV
+
 }
