@@ -3,4 +3,4 @@ project(EDA2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(EDA2 main.c menu.c)
+add_library(EDA2 main.c menu.c menu.h)
