@@ -3,4 +3,4 @@ project(EDA2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(EDA2 main.c)
+add_library(EDA2 main.c prova1.cpp prova1.h prova1.h)
