@@ -5,7 +5,7 @@
 void hello(void) {
     printf("Hello, World!\n");
     printf("Hola Jan");
-    printf("Hola a todos");
+    printf("Hola a todos jeje");
 HJFJ
 asdbasdo
 }
